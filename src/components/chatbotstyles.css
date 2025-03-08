@@ -1,0 +1,111 @@
+.chat-parent {
+    justify-content: center;
+    text-align: center;
+  }
+  .chat-container {
+    display: flex;
+    flex-direction: column;
+    max-width: 50%;
+    margin: auto;
+    padding: 20px;
+    background-color: #f5f5f5;
+    border-radius: 10px;
+    height: 70%;
+    max-height: 70%;
+    overflow-y: auto;
+    justify-content: center;
+    text-align: center;
+    border: 3px solid black;
+  }
+  
+  .messageBox {
+    background-color: aqua;
+    border: 2px solid black;
+    border-radius: 10px;
+    padding: 10px;
+    max-width: 70%;
+    padding: 10px;
+    margin: 5px;
+    border-radius: 10px;
+    word-wrap: break-word;
+    display: inline-block;
+  }
+  
+  .botBox {
+    align-self: flex-start; /* Left */
+    justify-content: flex-start;
+    background-color: #d1e7ff;
+    text-align: left;
+    border: 2px solid black;
+    border-radius: 10px;
+    padding: 10px;
+    max-width: 70%;
+    padding: 10px;
+    margin: 5px;
+    border-radius: 10px;
+    word-wrap: break-word;
+    border-top-left-radius: 0;
+  }
+  
+  .userBox {
+    align-self: flex-end; /* Right */
+    background-color: #c1ffc1;
+    text-align: right;
+    border: 2px solid black;
+    border-radius: 10px;
+    padding: 10px;
+    max-width: 70%;
+    padding: 10px;
+    margin: 5px;
+    border-radius: 10px;
+    word-wrap: break-word;
+    border-top-right-radius: 0;
+  }
+  
+  .custom-button {
+    background-color: #007bff; /* Blue color */
+    color: white;
+    padding: 12px 24px;
+    font-size: 16px;
+    font-weight: bold;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  }
+  
+  .custom-button:hover {
+    background-color: #0056b3; /* Darker blue */
+    transform: scale(1.05); /* Slightly enlarge */
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3);
+  }
+  
+  .custom-button:active {
+    background-color: #00408d; /* Even darker blue */
+    transform: scale(0.98); /* Press effect */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  }
+  
+  .custom-input {
+    width: 100%;
+    max-width: 300px; /* Adjust width as needed */
+    padding: 10px 15px;
+    font-size: 16px;
+    border: 2px solid #ccc;
+    border-radius: 8px;
+    outline: none;
+    transition: all 0.3s ease-in-out;
+  }
+  
+  .custom-input:focus {
+    border-color: #007bff; /* Blue outline */
+    box-shadow: 0 4px 8px rgba(0, 123, 255, 0.3);
+  }
+  
+  .input-box {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
