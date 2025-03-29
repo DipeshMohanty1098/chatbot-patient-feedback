@@ -4,7 +4,7 @@ export async function query(data) {
         {
             method: "POST",
             headers: {
-                
+                "Authorization": `Bearer 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`,
                 "Content-Type": "application/json",
             },
             body: JSON.stringify(data),
